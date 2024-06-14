@@ -9,6 +9,7 @@ DHT dht(DHTPIN, DHTTYPE);
 
 const char* ssid = "Flash Net";
 const char* password = "engkosek";
+const char* serverName = "http://127.0.0.1:8000/sensor/data";
 
 void setup() {
   Serial.begin(115200);
